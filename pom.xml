@@ -392,6 +392,14 @@
       </plugin>
 
 
+        <plugin>
+           <groupId>org.apache.maven.plugins</groupId>
+           <artifactId>maven-ejb-plugin</artifactId>
+           <configuration>
+               <ejbVersion>3.0</ejbVersion>
+           </configuration>
+        </plugin>
+
 
 
       <!-- 2. create karaf assembly -->
@@ -639,7 +647,7 @@
 
 -->
 
-  <packaging>ejb</packaging>
+  <!--<packaging>ejb</packaging>-->
 
 
 </project>
