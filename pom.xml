@@ -596,15 +596,6 @@
 
   <repositories>
     <repository>
-      <id>central</id>
-      <name>Maven central</name>
-      <layout>default</layout>
-      <url>http://repo1.maven.org/maven2</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <repository>
       <id>fusesource</id>
       <name>Fuse source</name>
       <layout>default</layout>
