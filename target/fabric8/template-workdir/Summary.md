@@ -1,1 +1,0 @@
-RESTful WebService Example using JAX-RS with Karaf
