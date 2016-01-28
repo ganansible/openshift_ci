@@ -73,7 +73,8 @@
     <cxf.version>3.1.2</cxf.version>
     <camel.version>2.15.2</camel.version>
     <karaf.version>2.4.3</karaf.version>
-    <karaf.plugin.version>4.0.1</karaf.plugin.version>
+    <!--<karaf.plugin.version>4.0.1</karaf.plugin.version>-->
+    <karaf.plugin.version>4.0.2.redhat-621079</karaf.plugin.version>
     <maven-install-plugin.version>2.5.2</maven-install-plugin.version>
 
     <jackson2-version>2.4.1</jackson2-version>
