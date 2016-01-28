@@ -350,7 +350,7 @@
 
 
 
-<!--
+
       <plugin>
         <groupId>io.fabric8</groupId>
         <artifactId>fabric8-maven-plugin</artifactId>
@@ -372,7 +372,7 @@
           </execution>
         </executions>
       </plugin>
--->
+
 
 
       <!-- plugin goals have to be executed in order -->
@@ -403,7 +403,7 @@
 
 
       <!-- 2. create karaf assembly -->
-<!--
+
      <plugin>
         <groupId>org.apache.karaf.tooling</groupId>
         <artifactId>karaf-maven-plugin</artifactId>
@@ -464,12 +464,12 @@
           </libraries>
         </configuration>
       </plugin>
--->
+
 
 
 
       <!-- 3. create docker image -->
-<!--
+
       <plugin>
         <groupId>org.jolokia</groupId>
         <artifactId>docker-maven-plugin</artifactId>
@@ -504,7 +504,7 @@
           </images>
         </configuration>
       </plugin>
--->
+
 
 
     </plugins>
@@ -644,8 +644,8 @@
       </properties>
     </profile>
   </profiles>
-
 -->
+
 
 
   <packaging>bundle</packaging>
