@@ -647,6 +647,8 @@
 
 -->
 
+
+  <packaging>bundle</packaging>
   <!--<packaging>ejb</packaging>-->
 
 
