@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1453717623393
+Build-Jdk: 1.7.0_91
+Built-By: mthirion
+Bundle-Description: RESTful WebService Example using JAX-RS with Karaf
+Bundle-ManifestVersion: 2
+Bundle-Name: Fabric8 :: Quickstarts :: Karaf :: CXF RESTful WebService
+Bundle-SymbolicName: fuse.ose.org.fuse-test1
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: fuse.ose.org;uses:="javax.xml.bind.annotation,javax.anno
+ tation,javax.ws.rs,com.wordnik.swagger.annotations,org.apache.cxf.jaxrs
+ .ext,org.slf4j,javax.ws.rs.core";version="1.0.0.SNAPSHOT"
+Import-Package: com.fasterxml.jackson.annotation;version="[2.6,3)";resol
+ ution:=optional,com.fasterxml.jackson.core;version="[2.6,3)";resolution
+ :=optional,com.fasterxml.jackson.databind;version="[2.6,3)";resolution:
+ =optional,com.fasterxml.jackson.jaxrs.json;version="[2.6,3)";resolution
+ :=optional,com.wordnik.swagger.annotations;resolution:=optional,com.wor
+ dnik.swagger.jaxrs.config;resolution:=optional,com.wordnik.swagger.jaxr
+ s.listing;resolution:=optional,io.fabric8.cxf.endpoint,javax.annotation
+ ;version="[1.2,2)",javax.ws.rs;version="[2,3)",javax.ws.rs.core;version
+ ="[2,3)",javax.ws.rs.ext;version="[2,3)",javax.xml.bind.annotation,org.
+ apache.cxf.jaxrs.ext;version="[3.1,4)",org.apache.cxf.transport.http;ve
+ rsion="[3.0,4)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.
+ slf4j;version="[1.7,2)"
+Tool: Bnd-1.50.0
