@@ -9,6 +9,53 @@
   <name>Fabric8 :: Quickstarts :: Karaf :: CXF RESTful WebService</name>
   <description>RESTful WebService Example using JAX-RS with Karaf</description>
 
+  <repositories>
+    <repository>
+      <id>jbossea</id>
+      <name>JBoss Early Access</name>
+      <layout>default</layout>
+      <url>http://origin-repository.jboss.org/nexus/content/groups/ea/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>fusesource</id>
+      <name>Fuse source</name>
+      <layout>default</layout>
+      <url>https://repo.fusesource.com/nexus/content/groups/public/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>jbossea</id>
+      <name>JBoss Early Access</name>
+      <layout>default</layout>
+      <url>http://origin-repository.jboss.org/nexus/content/groups/ea/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+    <pluginRepository>
+      <id>fusesource</id>
+      <name>Fuse source</name>
+      <layout>default</layout>
+      <url>https://repo.fusesource.com/nexus/content/groups/public/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+
+  </pluginRepositories>
+
+
+
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <version.compiler.plugin>2.3.1</version.compiler.plugin>
@@ -594,16 +641,5 @@
 
   <packaging>ejb</packaging>
 
-  <repositories>
-    <repository>
-      <id>fusesource</id>
-      <name>Fuse source</name>
-      <layout>default</layout>
-      <url>https://repo.fusesource.com/nexus/content/groups/public/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
 
 </project>
