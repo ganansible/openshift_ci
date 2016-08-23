@@ -1,3 +1,3 @@
-# RESTful web services with CXF
+# Openshift demo repository
 
-This quickstart demonstrates how to create a RESTful (JAX-RS) web service using CXF and expose it through the OSGi HTTP Service.
+Contains sources and dockerfile to build demo Openshift3 apps
