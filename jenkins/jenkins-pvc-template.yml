@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: Template
+metadata:
+  name: jenkins-s2i-pvc
+labels:
+  template: jenkins-s2i-pvc
+metadata:
+  annotations:
+    description: Creates a PVC for Jenkins
+    tags: pvc,jenkins
+  name: jenkins-s2i-pvc
+parameters:
+- description: "Name of the PVC"
+  name: PVC_NAME
+  required: true
+- description: "Volume space for jenkins jobs and config"
+  name: VOLUME_CAPACITY
+  required: true
+  value: 2Gi
+objects:
+- apiVersion: v1
+  kind: PersistentVolumeClaim
+  metadata:
+    name: ${PVC_NAME}
+  spec:
+    accessModes:
+      - ReadWriteOnce
+    resources:
+      requests:
+        storage: ${VOLUME_CAPACITY}
